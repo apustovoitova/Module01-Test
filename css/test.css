@@ -1,6 +1,5 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
@@ -10,39 +9,24 @@ body {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 10px;
     font-size: 20px;
     align-items: center;
 }
 
 .logo {
     margin-right: 50px;
-    text-decoration: none;
     color: lightgreen;
     background-color: rebeccapurple;
     font-weight: 700;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 10px;
 }
 
-nav {
-    display: flex;
-
-}
 
 ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     gap: 30px;
-}
-
-li {
-    margin-left: 5px;
-}
-
-ul>li:last-child {
-    margin-right: 0px;
 }
 
 .box {
